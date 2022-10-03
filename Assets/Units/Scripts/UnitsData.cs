@@ -11,7 +11,7 @@ public class UnitsData : ScriptableObject
 
     public List<Unit> GetEnemyUnits() => enemies;
 
-    public Unit GetRandomAllyUnit() => allies[Random.Range(0, allies.Count - 1)];
+    public Unit GetRandomAllyUnit() => allies[Random.Range(0, allies.Count)];
 
-    public Unit GetRandomEnemyUnit() => enemies[Random.Range(0, enemies.Count - 1)];
+    public Unit GetRandomEnemyUnit() => enemies[Random.Range(0, enemies.Count)];
 }

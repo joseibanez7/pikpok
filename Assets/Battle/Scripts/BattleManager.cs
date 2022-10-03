@@ -125,12 +125,8 @@ public class BattleManager : MonoBehaviour
     private IEnumerator DisplayEndOfGame()
     {
         yield return new WaitForSeconds(1f);
-
-        if (battleState == BattleState.Lose)
-            losePanel.SetActive(true);
-        else if (battleState == BattleState.Win)
-            winPanel.SetActive(true);
-
+        losePanel.SetActive(battleState == BattleState.Lose);
+        winPanel.SetActive(battleState == BattleState.Win);
         Setup();
     }
 
