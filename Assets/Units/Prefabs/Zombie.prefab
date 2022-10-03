@@ -93,7 +93,6 @@ MonoBehaviour:
     maxHealth: 100
     damage: 25
     shield: 1
-    healingPower: 5
+    healingPower: 10
   characterPreview: {fileID: 672057338707953782}
   unitName: Zombie
-  isEnemy: 1

@@ -93,7 +93,6 @@ MonoBehaviour:
     maxHealth: 1500
     damage: 400
     shield: 1
-    healingPower: 10
+    healingPower: 50
   characterPreview: {fileID: 672057338707953782}
   unitName: White Walker
-  isEnemy: 1

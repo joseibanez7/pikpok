@@ -93,7 +93,6 @@ MonoBehaviour:
     maxHealth: 3000
     damage: 500
     shield: 1
-    healingPower: 0
+    healingPower: 50
   characterPreview: {fileID: 672057338707953782}
   unitName: Viserion
-  isEnemy: 1
